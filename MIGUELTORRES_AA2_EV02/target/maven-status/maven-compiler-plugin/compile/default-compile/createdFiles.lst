@@ -1,0 +1,4 @@
+com\migueltorres\web\model\Task$Priority.class
+com\migueltorres\web\model\Task.class
+com\migueltorres\web\servlet\TaskServlet.class
+com\migueltorres\web\repo\TaskRepository.class
