@@ -1,0 +1,5 @@
+com\migueltorres\tareas\repository\TareaRepository.class
+com\migueltorres\tareas\controller\TareaController.class
+com\migueltorres\tareas\service\TareaService.class
+com\migueltorres\tareas\GestorTareasApplication.class
+com\migueltorres\tareas\model\Tarea.class
