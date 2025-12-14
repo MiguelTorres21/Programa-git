@@ -26,4 +26,17 @@ public class TareaController {
     public Tarea crear(@RequestBody Tarea tarea) {
         return service.guardar(tarea);
     }
+
+    @PatchMapping("/{id}/estado")
+    public Tarea cambiarEstado(
+            @PathVariable Long id,
+            @RequestParam boolean completada
+    ) {
+        return service.cambiarEstado(id, completada);
+    }
+
+    @DeleteMapping("/{id}")
+       public void eliminar(@PathVariable Long id) {
+           service.eliminar(id);
+       }
 }
